@@ -1,4 +1,4 @@
-name: Deploy v5 Preview
+name: Deploy Quartz site to Github Pages
 
 on:
   push:
