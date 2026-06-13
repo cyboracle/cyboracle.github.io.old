@@ -1,6 +1,6 @@
 # yaml-language-server: $schema=./quartz/plugins/quartz-plugins.schema.json
 configuration:
-  pageTitle: Quartz 5
+  pageTitle: Cyboracle's Domain
   pageTitleSuffix: ""
   enableSPA: true
   enablePopovers: true
@@ -226,7 +226,6 @@ plugins:
     options:
       links:
         GitHub: https://github.com/jackyzha0/quartz
-        Discord Community: https://discord.gg/cRFFHYye7t
   - source: github:quartz-community/recent-notes
     enabled: false
   - source: github:quartz-community/spacer
