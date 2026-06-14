@@ -225,8 +225,6 @@ plugins:
   - source: github:quartz-community/footer
     enabled: true
     options:
-      links:
-        GitHub: https://github.com/jackyzha0/quartz
   - source: github:quartz-community/recent-notes
     enabled: false
   - source: github:quartz-community/spacer
