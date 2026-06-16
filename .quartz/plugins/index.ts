@@ -32,9 +32,7 @@ export { EncryptedPage, EncryptedPageComponentOptions, EncryptedContentIndexOpti
 export { FolderPage, FolderPageOptions, FolderContent } from "./folder-page"
 export { FontFileEntry, FontSpecification, GoogleFontFile, ProcessedFontResult, QuartzFontRegistry, FontsEmitter, FontsOptions } from "./fonts"
 export { NotePropertiesComponent, NotePropertiesComponentOptions, NotePropertiesOptions } from "./note-properties"
-export { ExcalidrawData, ExcalidrawElement, ExcalidrawBody, ExcalidrawFrame, ExcalidrawPageOptions } from "./obsidian-plugin-excalidraw"
 export { CustomOgImagesEmitterName } from "./og-image"
-export { AspectCSS, AspectKey, ThemeModule, CALLOUT_ALIASES, CALLOUT_ICON_MAP, CHECKBOX_ICON_MAP, ThemeData, ThemeMeta, ThemeOptions, generateCalloutIconCSS, generateCheckboxIconCSS, getAvailableThemes, getThemeMeta, loadTheme, registerTheme, resolveCalloutIcon, resolveCheckboxIcon, resolveThemeId } from "./quartz-themes"
 export { filterListedPages, isFolderPageSlug, isTagPageSlug, resolveDefaultDateType, withResolvedDateType } from "./recent-notes"
 export { StackedPagesOptions, ExampleComponent, ExampleComponentOptions, StackedPages, StackedPagesComponentOptions, ExampleEmitterOptions, ExampleFilterOptions, ExampleTransformerOptions } from "./stacked-pages"
 export { tokenClassifierTransformer } from "./syntax-highlighting"
@@ -125,9 +123,6 @@ export const plugins: Record<string, Record<string, (...args: unknown[]) => void
   "obsidian-flavored-markdown": {
     ObsidianFlavoredMarkdown: (...args: unknown[]) => { componentRegistry.setOptionOverrides("obsidian-flavored-markdown", args[0] as Record<string, unknown>); },
   },
-  "obsidian-plugin-excalidraw": {
-    ExcalidrawPage: (...args: unknown[]) => { componentRegistry.setOptionOverrides("obsidian-plugin-excalidraw", args[0] as Record<string, unknown>); },
-  },
   "og-image": {
     CustomOgImages: (...args: unknown[]) => { componentRegistry.setOptionOverrides("og-image", args[0] as Record<string, unknown>); },
   },
@@ -136,12 +131,6 @@ export const plugins: Record<string, Record<string, (...args: unknown[]) => void
   },
   "page-title": {
     PageTitle: (...args: unknown[]) => { componentRegistry.setOptionOverrides("page-title", args[0] as Record<string, unknown>); },
-  },
-  "quartz-themes": {
-    QuartzTheme: (...args: unknown[]) => { componentRegistry.setOptionOverrides("quartz-themes", args[0] as Record<string, unknown>); },
-    QuartzThemes: (...args: unknown[]) => { componentRegistry.setOptionOverrides("quartz-themes", args[0] as Record<string, unknown>); },
-    quartzThemes: (...args: unknown[]) => { componentRegistry.setOptionOverrides("quartz-themes", args[0] as Record<string, unknown>); },
-    transformer: (...args: unknown[]) => { componentRegistry.setOptionOverrides("quartz-themes", args[0] as Record<string, unknown>); },
   },
   "reader-mode": {
     ReaderMode: (...args: unknown[]) => { componentRegistry.setOptionOverrides("reader-mode", args[0] as Record<string, unknown>); },
@@ -209,14 +198,9 @@ export const HardLineBreaks = plugins["hard-line-breaks"].HardLineBreaks
 export const Latex = plugins["latex"].Latex
 export const NoteProperties = plugins["note-properties"].NoteProperties
 export const ObsidianFlavoredMarkdown = plugins["obsidian-flavored-markdown"].ObsidianFlavoredMarkdown
-export const ExcalidrawPage = plugins["obsidian-plugin-excalidraw"].ExcalidrawPage
 export const CustomOgImages = plugins["og-image"].CustomOgImages
 export const OxHugoFlavouredMarkdown = plugins["ox-hugo"].OxHugoFlavouredMarkdown
 export const PageTitle = plugins["page-title"].PageTitle
-export const QuartzTheme = plugins["quartz-themes"].QuartzTheme
-export const QuartzThemes = plugins["quartz-themes"].QuartzThemes
-export const quartzThemes = plugins["quartz-themes"].quartzThemes
-export const transformer = plugins["quartz-themes"].transformer
 export const ReaderMode = plugins["reader-mode"].ReaderMode
 export const RecentNotes = plugins["recent-notes"].RecentNotes
 export const RemoveDrafts = plugins["remove-draft"].RemoveDrafts
