@@ -1,13 +1,13 @@
-# Brainhack
+# Phoenix
 
-- Theme: Brainhack
-- Author: <a href="https://github.com/Spekulucius" target="_blank" rel="noopener noreferrer">Spekulucius</a>
+- Theme: Phoenix
+- Author: <a href="https://github.com/RyzenFromFire" target="_blank" rel="noopener noreferrer">RyzenFromFire</a>
 
 ## Preview
 
-[Open live preview (Quartz)](https://quartz-themes.github.io/brainhack/)
+[Open live preview (Quartz)](https://quartz-themes.github.io/phoenix/)
 
-[Open live preview (Publish)](https://publish.saberzero.one/brainhack)
+[Open live preview (Publish)](https://publish.saberzero.one/phoenix)
 
 ## Usage (Quartz)
 
@@ -15,7 +15,7 @@
 
 ```yaml
 env:
-  THEME_NAME: brainhack
+  THEME_NAME: phoenix
 ```
 
 ```yaml
@@ -28,7 +28,7 @@ env:
 ```bash
 curl -s -S -o action.sh https://raw.githubusercontent.com/saberzero1/quartz-themes/master/action.sh
 
-./action.sh brainhack
+./action.sh phoenix
 ```
 
 ### Manual install
