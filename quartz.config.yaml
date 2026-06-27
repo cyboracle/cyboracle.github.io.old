@@ -10,10 +10,8 @@ configuration:
   locale: en-US
   baseUrl: cyboracle.github.io
   ignorePatterns:
-    - private
     - templates
     - .obsidian
-    - images
     - drafts
   theme:
     fontOrigin: googleFonts
