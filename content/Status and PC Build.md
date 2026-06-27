@@ -1,3 +1,9 @@
+---
+publish: true
+tags:
+  - gaming
+created: 2026-06-13T11:16:15.068-04:00
+---
 This is the season of chuffing. By this I mean I'm starting to recognize root causes of not being able to get momentum on tasks and hobbies and clearing those root causes. One of the main ones was clutter.
 
 For a while I caught myself mentally complaining about being weighed down by projects. It was confusing, as I also had a desire to work on projects like sewing and weaving, etc., so why did I find projects cumbersome? The ACTUAL issue was that the fun projects are currently blocked and in perpetual holding patterns because house clutter is blocking their proper space. I can't just use my gym equipment because clutter blocks and the problematic project IS the clutter.

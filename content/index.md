@@ -1,11 +1,8 @@
 ---
 publish: true
 permalink: /index.md
-title: Welcome
+title: Cyboracle's Digital Garden
 created: 2026-06-13T11:16:15.068-04:00
-modified: 2026-06-14T15:11:36.659-04:00
-tags:
-  - start
 ---
 Welcome to my digital garden, a place for putting notes and photos and such. I guess in the olden days this would be called a blog, but I like the idea of a digital garden.
 
