@@ -7,6 +7,10 @@ modified: 2026-06-14T15:11:36.659-04:00
 tags:
   - start
 ---
-Coming Soon.
+Welcome to my digital garden, a place for putting notes and photos and such. I guess in the olden days this would be called a blog, but I like the idea of a digital garden.
 
-Nice new site, a little more complex than Wordpress, so I’m still working on it. Stay tuned, bookmark me, check back!
+'''
+A digital garden is an online space where you can collect and share evolving ideas, notes, and resources, much like a physical garden that grows over time. Unlike traditional blogs, digital gardens allow for continuous learning and exploration, presenting thoughts that may not be fully polished or complete.
+'''
+
+Check out the navigation on the left or the nifty graph and I hope you enjoy following along various adventures with me.
