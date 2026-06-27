@@ -7,7 +7,6 @@ modified: 2026-06-14T15:11:36.659-04:00
 tags:
   - start
 ---
-
 Coming Soon.
 
 Nice new site, a little more complex than Wordpress, so I’m still working on it. Stay tuned, bookmark me, check back!
