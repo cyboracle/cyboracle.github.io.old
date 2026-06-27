@@ -1,12 +1,12 @@
 # yaml-language-server: $schema=./quartz/plugins/quartz-plugins.schema.json
 configuration:
-  pageTitle: "Cyboracle's Digital Garden"
+  pageTitle: Cyboracle's Digital Garden
   pageTitleSuffix: ""
   enableSPA: true
   enablePopovers: true
   analytics:
-    provider: 'google'
-    tagId: 'G-H83TWH11E5'
+    provider: google
+    tagId: G-H83TWH11E5
   locale: en-US
   baseUrl: cyboracle.github.io
   ignorePatterns:
@@ -224,9 +224,18 @@ plugins:
       priority: 10
   - source: github:quartz-community/footer
     enabled: true
-    options:
+    options: null
   - source: github:quartz-community/recent-notes
-    enabled: false
+    enabled: true
+    layout:
+      position: afterBody
+      priority: 10
+    options:
+      title: "Recent Notes"
+      limit: 5
+      showTags: false
+      hideTagPages: true
+      hideFolderPages: true
   - source: github:quartz-community/spacer
     enabled: true
     options: {}
