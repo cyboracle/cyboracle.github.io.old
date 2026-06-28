@@ -81,6 +81,12 @@ plugins:
   - source: github:quartz-community/table-of-contents
     enabled: true
     order: 50
+    options:
+      maxDepth: 3
+      minentries: 3
+      showByDefault: true
+      collapseByDefault: false
+      layout: "modern"
     layout:
       position: right
       priority: 30
@@ -286,6 +292,10 @@ layout:
       priority: 35
       direction: row
       gap: 0.5rem
+  right:
+    - component: TableOfContents
+     position: right
+     priority: 30 
   byPageType:
     "404":
       positions:
