@@ -17,7 +17,7 @@ created: 2026-06-13T11:16:15.068-04:00
 ---
 The decluttering continues, especially as it's hot and smokey out. The new space in the basement that I'm clearing to move all my #sewing into is big enough to contain So Many Activities. Check out the layout gameplan.
 
-![[910881C1-893D-4F33-A46C-C232BB4A905D.heic]]
+![[Screenshot 2026-07-18 at 12.12.18 PM.png]]
 
 The room is long with a working fireplace. Working from right to left in the sketch:
 
