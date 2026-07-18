@@ -19,7 +19,7 @@ The decluttering continues, especially as it's hot and smokey out. The new space
 
 ![[Screenshot 2026-07-18 at 12.12.18 PM.png]]
 
-The room is long with a working fireplace. Working from right to left in the sketch:
+The room is long with a lovely working fireplace. Working from right to left in the sketch:
 
 1. **Tailoring Table**: This is a large table that I do all of my #tailoring and hand sewing at. It's a perfect height to stand at and work, but has some high stools for sitting. On one wall I plan to put shelving for cloth and notions and the other wall will be where I hang patterns. All of my paper patterns get large holes punched in them so I can hang them on bars mounted on the wall.
 2. **Weaving**: In the middle of the room will be three of those IKEA workstation units that have shelves with long tables attached to them. The tables/shelves will be devoted to #weaving, with room for my table loom and a tapestry loom I have planned. Shelves for yarn and such behind.
