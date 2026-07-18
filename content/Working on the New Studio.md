@@ -29,4 +29,4 @@ The room is long with a lovely working fireplace. Working from right to left in 
 
 The old sewing room is all the way to the left through a door near the shallow shelves; that will be the new #gym. Currently the gym equipment is in the area where the tailoring is and it's taken over by clutter. Devoting that room to exercise will help me just go down and Do It.
 
-I'm also going to fire up the new studio for streaming and get on my Tinker Tailor TV aspirations. I'll be streaming on #Twitch and #YouTube and will let everyone know when that starts up!
+I'm also going to fire up the new studio for streaming and get on my Tinker Tailor TV aspirations. I'll be streaming on #Twitch and #YouTube and will let everyone know when that starts up.
