@@ -32,6 +32,7 @@ export { EncryptedPage, EncryptedPageComponentOptions, EncryptedContentIndexOpti
 export { FolderPage, FolderPageOptions, FolderContent } from "./folder-page"
 export { FontFileEntry, FontSpecification, GoogleFontFile, ProcessedFontResult, QuartzFontRegistry, FontsEmitter, FontsOptions } from "./fonts"
 export { NotePropertiesComponent, NotePropertiesComponentOptions, NotePropertiesOptions } from "./note-properties"
+export { ExcalidrawData, ExcalidrawElement, ExcalidrawBody, ExcalidrawFrame, ExcalidrawPageOptions } from "./obsidian-plugin-excalidraw"
 export { CustomOgImagesEmitterName } from "./og-image"
 export { filterListedPages, isFolderPageSlug, isTagPageSlug, resolveDefaultDateType, withResolvedDateType } from "./recent-notes"
 export { StackedPagesOptions, ExampleComponent, ExampleComponentOptions, StackedPages, StackedPagesComponentOptions, ExampleEmitterOptions, ExampleFilterOptions, ExampleTransformerOptions } from "./stacked-pages"
@@ -123,6 +124,9 @@ export const plugins: Record<string, Record<string, (...args: unknown[]) => void
   "obsidian-flavored-markdown": {
     ObsidianFlavoredMarkdown: (...args: unknown[]) => { componentRegistry.setOptionOverrides("obsidian-flavored-markdown", args[0] as Record<string, unknown>); },
   },
+  "obsidian-plugin-excalidraw": {
+    ExcalidrawPage: (...args: unknown[]) => { componentRegistry.setOptionOverrides("obsidian-plugin-excalidraw", args[0] as Record<string, unknown>); },
+  },
   "og-image": {
     CustomOgImages: (...args: unknown[]) => { componentRegistry.setOptionOverrides("og-image", args[0] as Record<string, unknown>); },
   },
@@ -198,6 +202,7 @@ export const HardLineBreaks = plugins["hard-line-breaks"].HardLineBreaks
 export const Latex = plugins["latex"].Latex
 export const NoteProperties = plugins["note-properties"].NoteProperties
 export const ObsidianFlavoredMarkdown = plugins["obsidian-flavored-markdown"].ObsidianFlavoredMarkdown
+export const ExcalidrawPage = plugins["obsidian-plugin-excalidraw"].ExcalidrawPage
 export const CustomOgImages = plugins["og-image"].CustomOgImages
 export const OxHugoFlavouredMarkdown = plugins["ox-hugo"].OxHugoFlavouredMarkdown
 export const PageTitle = plugins["page-title"].PageTitle
